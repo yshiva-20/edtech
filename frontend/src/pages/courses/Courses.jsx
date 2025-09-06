@@ -2,8 +2,8 @@
 import "./courses.css"
 
 import React, { useEffect } from 'react';
-import { useCourseData } from '../../context/CourseContext';
-import CourseCard from '../../components/CourseCard/CourseCard';
+import { useCourseData } from '../../context/CourseContext.jsx';
+import CourseCard from '../../components/CourseCard/CourseCard.jsx';
 import './Courses.css';
 
 const Courses = () => {
