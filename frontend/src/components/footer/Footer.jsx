@@ -20,7 +20,13 @@ const Footer = () => {
         </p>
         <div className="social-links">
           <a href="#" onClick={(e) => e.preventDefault()}><FaFacebook /></a>
-          <a href="#" onClick={(e) => e.preventDefault()}><FaInstagram /></a>
+          <a 
+  href="https://www.instagram.com/_shivang_yadav20/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <FaInstagram />
+</a>
           <a href="#" onClick={(e) => e.preventDefault()}><CiTwitter /></a>
           <a href="#" onClick={(e) => e.preventDefault()}><FaYoutube /></a>
         </div>
