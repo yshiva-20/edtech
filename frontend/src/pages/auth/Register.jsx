@@ -63,7 +63,9 @@ const navigate=useNavigate()
 
 
 
-<button type='submit' disabled={btnLoading} className='common-btn'>{btnLoading?"Please wait":"Register"}</button>
+<button type='submit' disabled={btnloading} className='common-btn'>
+  {btnloading ? "Please wait" : "Register"}
+</button>
             </form>
 
             <p>

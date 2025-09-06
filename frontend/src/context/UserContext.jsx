@@ -105,11 +105,11 @@ setBtnloading(false);
   async function fetchuser() 
   {
     try{
-   const {data}=await axios.get(`${server}/api/user/me`,{
-    Headers:{
-      token:localStorage.getItem("token"),
-    },
-   });
+  const {data}=await axios.get(`${server}/api/user/me`, {
+  headers: {
+    token: localStorage.getItem("token"),
+  },
+});
     
    
    setIsAuth(true);
