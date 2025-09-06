@@ -10,7 +10,13 @@ const Footer = () => {
       <div className="footer-component">
         <p>
           &copy; {new Date().getFullYear()} Your own learning Platform. All rights reserved. <br />
-          Made with ❤️ <a href="#" onClick={(e) => e.preventDefault()}>Shivang Yadav</a>
+          Made with ❤️ <a 
+  href="https://www.linkedin.com/in/shivang20" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  Shivang Yadav
+</a>
         </p>
         <div className="social-links">
           <a href="#" onClick={(e) => e.preventDefault()}><FaFacebook /></a>
