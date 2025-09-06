@@ -20,7 +20,13 @@ export const instance = new Razorpay({
 });
 
 const app = express();
-app.use(cors());
+
+
+app.use(cors({
+  origin: ["https://edtech-lbei.vercel.app"], 
+  credentials: true
+}));
+
 
 app.use(express.json());
 
