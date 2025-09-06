@@ -3,7 +3,7 @@ import "./courses.css"
 
 import React, { useEffect } from 'react';
 import { useCourseData } from '../../context/CourseContext.jsx';
-import CourseCard from '../../components/CourseCard/CourseCard.jsx';
+import CourseCard from "../../components/coursecard/CourseCard.jsx";
 import './courses.css';
 
 const Courses = () => {
