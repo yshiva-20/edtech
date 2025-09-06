@@ -1,0 +1,38 @@
+.course-study-page {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course-study-page h2 {
+    font-size: 24px;
+    color: #84B7E0;
+    text-align: center;
+}
+
+.course-study-page h4 {
+    font-size: 21px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.course-study-page h5 {
+    font-size: 20px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.lecture-button {
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    color: black;
+}

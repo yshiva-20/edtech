@@ -1,0 +1,21 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin-left: 20px;
+  background-color: grey;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color:black;
+}
