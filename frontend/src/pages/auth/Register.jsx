@@ -27,9 +27,11 @@ const navigate=useNavigate()
   };
 
 
-if (btnLoading) {
+  if (btnloading) {
     return <Loader message="Sending OTP..." />;
   }
+
+
 
 
 
