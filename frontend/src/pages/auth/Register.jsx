@@ -12,7 +12,7 @@ const Register = () => {
 const navigate=useNavigate()
 
 
-  const {btnLoading,registerUser}=useUserData();
+  const {btnloading,registerUser}=useUserData();
   
   const[email,setEmail]=useState("");
   
