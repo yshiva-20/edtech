@@ -32,50 +32,26 @@ font-size: 16px;
 
 
 .btn {
-  --color: #a4c59f;   
-  --color2: #2f3a2f;  
-  padding: 0
-  .8em 1.75em;
-  background-color: transparent;
-  border-radius: 8px;
-  border: 1px solid var(--color);
-  transition: 0.3s ease;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  z-index: 1;
+  background: #333; 
+  color: #fff;
+  padding: 0.7em 1.6em;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
   font-weight: 500;
-  font-size: 16px;
   font-family: 'Roboto', 'Segoe UI', sans-serif;
-  text-transform: uppercase;
-  color: var(--color);
-  letter-spacing: 0.5px;
-}
-
-
-.btn::after, .btn::before {
-  content: '';
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background-color: var(--color);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.4s ease;
-}
-
-.btn:hover::after {
-  transform: scaleX(1);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .btn:hover {
-  color: white; 
+  background: #000; 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
 .btn:active {
-  filter: brightness(.9);
-  transform: scale(.97);
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
