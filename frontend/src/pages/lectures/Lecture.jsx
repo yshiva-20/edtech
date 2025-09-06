@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./lecture.css";
+import "./Lecture.css";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import { server } from "../../main";
