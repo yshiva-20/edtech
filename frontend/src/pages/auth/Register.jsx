@@ -5,7 +5,7 @@ import  { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { useUserData } from "../../context/UserContext";
 
-
+import Loader from "../../components/loading/Loading";
 
 const Register = () => {
 
@@ -25,6 +25,13 @@ const navigate=useNavigate()
     e.preventDefault();
     await registerUser(name,email,password,navigate)
   };
+
+
+if (btnLoading) {
+    return <Loader message="Sending OTP..." />;
+  }
+
+
 
   return (
     <div>
